@@ -1,12 +1,14 @@
-interface Direccion {
-    pais: string,
-    casaNo: number
-}
-
+// Primero se define la interfaz principal
 interface Persona {
     nombre: string,
     edad: number,
     direccion: Direccion
+}
+
+// Luego se definen las que sean necesarias para la principal
+interface Direccion {
+    pais: string,
+    casaNo: number
 }
 
 
